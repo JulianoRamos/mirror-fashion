@@ -3,6 +3,10 @@ body {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
+header {
+	position: relative;
+}
+
 .container {
 	margin: 0 auto;
 	width: 940px;
@@ -22,6 +26,12 @@ body {
 	right: 0;
 }
 
+.menu-opcoes {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
 .menu-opcoes ul {
 	font-size: 15px;
 }
@@ -35,13 +45,49 @@ body {
 	margin-left: 20px;
 }
 
-header {
-	position: relative;
+.busca,
+.menu-departamentos {
+	background-color: #dcdcdc;
+	font-weight: bold;
+	text-transform: uppercase;
+
+	margin-right: 10px;
+	width: 230px;
+
+	float: left;
 }
 
-.menu-opcoes {
-	position: absolute;
-	bottom: 0;
-	right: 0;
+.busca h2,
+.busca form,
+.menu-departamentos h2 {
+	margin: 10px;
 }
 
+.menu-departamentos {
+	clear: left;
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+
+.menu-departamentos li {
+	background-color: white;
+	margin-bottom: 1px;
+	padding: 5px 10px;
+}
+
+.menu-departamentos a {
+	color: #333333;
+	text-decoration: none;
+}
+
+.busca input {
+	vertical-align: middle;
+}
+
+.busca input[type=search] {
+	width: 170px;
+}
+
+.destaque {
+	margin-top: 10px;
+}
