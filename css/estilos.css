@@ -140,6 +140,24 @@ header {
 
 footer {
 	background: url(../img/fundo-rodape.png);
+
+	clear: both;
+	padding: 20px 0px;
+}
+
+footer .container {
+	position: relative;
+}
+
+.social {
+	position: absolute;
+	top: 12px;
+	right: 0;
+}
+
+.social li {
+	float: left;
+	margin-left: 25px;
 }
 
 .social li a {
