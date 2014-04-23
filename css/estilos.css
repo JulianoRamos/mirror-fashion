@@ -169,6 +169,25 @@ header {
 
 	margin: 2px;
 	padding-bottom: 10px;
+
+	-webkit-transition: 0.7s ease-out;
+	transition: 0.7 ease-out;
+}
+
+.painel li:hover {
+	background-color: rgba(255, 255, 255, 0.8);
+	box-shadow: 0 0 5px #333;
+
+	-webkit-transition: 0.7s ease-in;
+	transition: 0.7 ease-in;
+
+	-webkit-transform: scale(1.2) rotate(-5deg);
+	transform: scale(1.2) rotate(-5deg);
+}
+
+.painel li:nth-child(2n):hover {
+	-webkit-transform: scale(1.2) rotate(5deg);
+	transform: scale(1.2) rotate(5deg);	
 }
 
 .painel h2 {
