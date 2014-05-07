@@ -28,6 +28,12 @@
 					</label>
 				</fieldset>
 
+				<fieldset class="tamanho">
+					<legend>Escolha o tamanho:</legend>
+
+					<input type="range" min="36" max="46" value="42" step="2" name="tamanho" id="tamanho">
+				</fieldset>
+
 				<input type="submit" class="comprar" value="Comprar">
 			</form>
 		</div>
