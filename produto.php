@@ -17,6 +17,7 @@
 				<form action="checkout.php" method="POST">
 					<input type="hidden" name="id" value="<?= $produto["id"] ?>">
 					<input type="hidden" name="nome" value="<?= $produto["nome"] ?>">
+					<input type="hidden" name="preco" value="<?= $produto["preco"] ?>">
 
 					<fieldset class="cores">
 						<legend>Escolha a cor:</legend>
