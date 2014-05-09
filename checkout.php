@@ -5,16 +5,7 @@
 	<title>Checkout Mirror Fashion</title>
 	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<script type="text/javascript">
-		document.querySelector('input[type=email]').oninvalid = function() {
-			this.setCustomValidity("");
-
-			if (!this.validity.valid) {
-				this.setCustomValidity("Email inválido");
-			}
-		};
-
-	</script>
+	
 </head>
 <body>
 
@@ -108,5 +99,15 @@
 
 		</form>
 	</div>
+	<script>
+		document.querySelector('input[type=email]').oninvalid = function() {
+			this.setCustomValidity("");
+
+			if (!this.validity.valid) {
+				this.setCustomValidity("Email inválido");
+			}
+		};
+
+	</script>
 </body>
 </html>
