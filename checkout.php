@@ -5,6 +5,16 @@
 	<title>Checkout Mirror Fashion</title>
 	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script type="text/javascript">
+		document.querySelector('input[type=email]').oninvalid = function() {
+			this.setCustomValidity("");
+
+			if (!this.validity.valid) {
+				this.setCustomValidity("Email inválido");
+			}
+		};
+
+	</script>
 </head>
 <body>
 
@@ -45,7 +55,7 @@
 
 				<div class="form-group">
 					<label for="nome" >Nome completo</label>	
-					<input type="text" class="form-control" id="nome" name="nome" autofocus>
+					<input type="text" class="form-control" id="nome" name="nome" autofocus required>
 				</div>
 
 				<div class="form-group">
@@ -55,7 +65,7 @@
 
 				<div class="form-group">
 					<label for="cpf">CPF</label>
-					<input type="text" class="form-control" id="cpf" name="cpf" placeholder="000.000.000-00">
+					<input type="text" class="form-control" id="cpf" name="cpf" placeholder="000.000.000-00" required>
 				</div>
 
 				<div class="checkbox">

@@ -6803,3 +6803,7 @@ td.visible-print {
     display: none !important;
   }
 }
+
+.form-control:invalid {
+  border: 1px solid #cc0000;
+}
