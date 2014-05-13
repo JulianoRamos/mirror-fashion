@@ -1,3 +1,4 @@
+<link href='http://fonts.googleapis.com/css?family=PT+Sans|Bad+Script' rel='stylesheet'>
 <!DOCTYPE html>
 <html>
 	<head>
