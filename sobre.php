@@ -20,6 +20,8 @@
 
 			<p>	Compre suas roupas e acessórios na <strong>Mirror Fashion</strong>. Acesse <a href="index.html">nossa loja</a> ou entre em <a href="contato.html">contato</a> se tiver dúvidas. Conheça também nossa <a href="#historia">história</a> e nossos <a href="#diferenciais">diferenciais</a>. </p>
 
+			<iframe width="420" height="315" src="//www.youtube.com/embed/Tb06abHE4hY" frameborder="0" allowfullscreen></iframe>
+
 			<h2 id="historia"><em>História</em></h2>
 
 			<figure id="familia-pelho">

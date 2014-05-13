@@ -18,6 +18,10 @@
 					<input type="hidden" name="id" value="<?= $produto["id"] ?>">
 					<input type="hidden" name="nome" value="<?= $produto["nome"] ?>">
 					<input type="hidden" name="preco" value="<?= $produto["preco"] ?>">
+					<div class="fb-like" data-href="http://mirrorfashion.net/loja"
+						data-send="false" data-layout="box_count"
+						data-width="58" data-show-faces="false">
+					</div>
 
 					<fieldset class="cores">
 						<legend>Escolha a cor:</legend>
@@ -83,6 +87,15 @@
 		</div>
 	</div>
 	<?php include("rodape.php"); ?>
-	<script src="js/produto.js"></script>>
+	<script src="js/produto.js"></script>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "http://connect.facebook.net/pt_BR/all.js#xfbml=1";
+		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
 </body>
 </html>
