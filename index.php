@@ -46,7 +46,7 @@
 			<ol>
 				<?php		
 					$conexao = mysqli_connect("127.0.0.1", "root", "123456", "WD43");
-					$dados   = mysqli_query($conexao, "SELECT * FROM produtos ORDER BY data LIMIT 0, 6");
+					$dados   = mysqli_query($conexao, "SELECT * FROM produtos ORDER BY data LIMIT 0, 12");
 
 					while ($produto = mysqli_fetch_array($dados)):
 				?>
@@ -62,6 +62,7 @@
 
 				<?php endwhile; ?>
 			</ol>
+			<button type="button">Mostra mais</button>
 		</section>
 
 		<section class="painel mais-vendidos">
@@ -70,7 +71,7 @@
 			<ol>
 				<?php		
 					$conexao = mysqli_connect("127.0.0.1", "root", "123456", "WD43");
-					$dados   = mysqli_query($conexao, "SELECT * FROM produtos ORDER BY vendas LIMIT 0, 6");
+					$dados   = mysqli_query($conexao, "SELECT * FROM produtos ORDER BY vendas LIMIT 0, 12");
 
 					while ($produto = mysqli_fetch_array($dados)):
 				?>
@@ -85,6 +86,7 @@
 				</li>
 
 				<?php endwhile; ?>
+				<button type="button">Mostra mais</button>
 			</ol>
 		</section>
 	</div>

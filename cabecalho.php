@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title><?php print $cabecalho_title; ?></title>
+		<script src="js/jquery.js"></script>
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/estilos.css">
 		<?php print @$cabecalho_css; ?>		
