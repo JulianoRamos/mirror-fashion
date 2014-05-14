@@ -6,7 +6,7 @@
 		<title><?php print $cabecalho_title; ?></title>
 		<script src="js/jquery.js"></script>
 		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/estilos.css">
+		<link rel="stylesheet/less" href="less/estilos.less">
 		<?php print @$cabecalho_css; ?>		
 		<link rel="stylesheet" href="css/mobile.css" media="(max-width: 939px)">
 
